@@ -1,0 +1,317 @@
+
+        <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Toronto Farm — Our Branches</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+<style>
+    .darkblue{
+        background-color: rgba(31, 124, 30, 1.0);
+    } 
+    .Heading{
+        font-size: 30px;
+        color: rgba(68, 180, 184, 0.87);
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: left; 
+        padding-bottom: 50px;
+    }
+</style>
+
+</head>
+
+<body>
+<!-- Navigation -->
+<nav>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid card  darkblue">
+    <a class="navbar-brand" href="index.html">Toronto Farm</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="Index.html">HOME</a>
+        </li>
+         <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="About Us.html">ABOUT US</a>
+        </li>
+         <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="Patner with Us.html">PARTNER WITH US</a>
+        </li>
+         <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="Career.html">CAREERS</a>
+        </li>
+         <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="Index.html">GALLERY</a>
+        </li>
+         <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="Blog.html">BLOG</a>
+        </li>
+         <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="Our Products.html">OUR PRODUCTS</a>
+        </li>
+        </li>
+         <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="Our Team.html">OUR TEAM</a>
+        </li>
+        
+    
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+<!-- Variety -->
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js" integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y" crossorigin="anonymous"></script>
+</section>
+</body>
+
+<style>
+  :root{
+    --forest:#1F3D2B;
+    --forest-deep:#132A1C;
+    --moss:#4C7A54;
+    --clay:#B8863B;
+    --paper:#F6F3EA;
+    --ink:#1C2420;
+    --line:#DAD3C0;
+  }
+  *{box-sizing:border-box;margin:0;padding:0;}
+  body{
+    font-family:'Georgia', 'Iowan Old Style', serif;
+    background:var(--paper);
+    color:var(--ink);
+  }
+  .branches-section{
+    max-width:1000px;
+    margin:0 auto;
+    padding:80px 24px 100px;
+  }
+  .contact-eyebrow{
+    font-family:'Helvetica Neue', Arial, sans-serif;
+    font-size:12px;
+    letter-spacing:0.28em;
+    text-transform:uppercase;
+    color:var(--clay);
+    font-weight:600;
+    display:block;
+    text-align:center;
+    margin-bottom:14px;
+  }
+  .contact-title{
+    text-align:center;
+    font-size:38px;
+    font-weight:400;
+    color:var(--forest-deep);
+    margin-bottom:8px;
+  }
+  .contact-title em{ font-style:italic; color:var(--moss); }
+  .contact-sub{
+    text-align:center;
+    font-family:'Helvetica Neue', Arial, sans-serif;
+    font-size:15px;
+    color:#5B6459;
+    max-width:460px;
+    margin:0 auto 56px;
+    line-height:1.6;
+  }
+
+  .branch-layout{
+    display:grid;
+    grid-template-columns:220px 1fr;
+    border:1px solid var(--line);
+    background:#fff;
+  }
+
+  .branch-list{
+    border-right:1px solid var(--line);
+    background:var(--paper);
+  }
+  .branch-btn{
+    display:block;
+    width:100%;
+    text-align:left;
+    background:none;
+    border:none;
+    border-bottom:1px solid var(--line);
+    padding:16px 20px;
+    font-family:'Helvetica Neue', Arial, sans-serif;
+    font-size:14px;
+    font-weight:600;
+    color:var(--ink);
+    cursor:pointer;
+    letter-spacing:0.01em;
+  }
+  .branch-btn:last-child{ border-bottom:none; }
+  .branch-btn:hover{ background:#EFE9D8; }
+  .branch-btn.active{
+    background:var(--forest);
+    color:var(--paper);
+  }
+
+  .branch-detail{
+    padding:44px 44px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    min-height:280px;
+  }
+  .branch-country-label{
+    font-family:'Helvetica Neue', Arial, sans-serif;
+    font-size:11px;
+    letter-spacing:0.2em;
+    text-transform:uppercase;
+    color:var(--moss);
+    font-weight:700;
+    margin-bottom:10px;
+  }
+  .branch-office-name{
+    font-size:26px;
+    color:var(--forest-deep);
+    margin-bottom:24px;
+  }
+  .branch-rows{
+    display:grid;
+    gap:16px;
+    font-family:'Helvetica Neue', Arial, sans-serif;
+    font-size:14.5px;
+    color:#4A5248;
+  }
+  .branch-row{
+    display:flex;
+    gap:14px;
+    align-items:flex-start;
+  }
+  .branch-row svg{
+    width:18px; height:18px;
+    stroke:var(--clay);
+    fill:none;
+    stroke-width:1.8;
+    flex-shrink:0;
+    margin-top:2px;
+  }
+  .branch-row a{ color:var(--ink); text-decoration:none; border-bottom:1px solid var(--line); }
+  .branch-row a:hover{ color:var(--moss); border-color:var(--moss); }
+
+  @media (max-width: 700px){
+    .branch-layout{ grid-template-columns:1fr; }
+    .branch-list{
+      border-right:none;
+      border-bottom:1px solid var(--line);
+      display:flex;
+      overflow-x:auto;
+    }
+    .branch-btn{
+      border-bottom:none;
+      border-right:1px solid var(--line);
+      white-space:nowrap;
+    }
+    .branch-detail{ padding:32px 24px; }
+  }
+</style>
+
+</head>
+<body>
+
+<section class="branches-section">
+  <span class="contact-eyebrow">Our Offices</span>
+  <h2 class="contact-title">Toronto Farm Across <em>Africa</em></h2>
+  <p class="contact-sub">Select a country below to view the branch office nearest you.</p>
+
+  <div class="branch-layout">
+    <div class="branch-list" id="branchList"></div>
+    <div class="branch-detail" id="branchDetail"></div>
+  </div>
+</section>
+
+<script>
+const branches = [
+  { country: "Kenya (HQ)", office: "Toronto Farm — Head Office", address: "Taita Taveta County, Kenya", phone: "+254 713 283 688", email: "info@torontofarmltd.com" },
+  { country: "Uganda", office: "Toronto Farm Uganda", address: "Plot 680, Kwame Nkuruma Road, Kampala, Uganda", phone: "+256720000000", email: "uganda@torontofarmltd.com" },
+  { country: "Tanzania", office: "Toronto Farm Tanzania", address: "J.P Magufuli Street, Dar es Salaam, Tanzania", phone: "+255730000000", email: "tanzania@torontofarmltd.com" },
+  { country: "Rwanda", office: "Toronto Farm Rwanda", address: "Kagame Avenue, Kigali, Rwanda", phone: "+250713283688", email: "rwanda@torontofarmltd.com" },
+  { country: "Togo", office: "Toronto Farm Togo", address: "1er Étage Immeuble Emma & Frère, Bè-kpota 01BP361, Rue Garka, Lomé, Togo", phone: "+2287202600837", email: "togo@torontofarmltd.com" },
+  { country: "Zambia", office: "Toronto Farm Zambia", address: "Zambezi Road, Lusaka, Zambia", phone: "+260726200275", email: "zambia@torontofarmltd.com" },
+  { country: "Zimbabwe", office: "Toronto Farm Zimbabwe", address: "Kore Avenue, Harare, Zimbabwe", phone: "+263724745763", email: "zimbabwe@torontofarmltd.com" },
+  { country: "South Africa", office: "Toronto Farm South Africa", address: " Mandela Street, Johannesburg, South Africa", phone: "+27720600837", email: "southafrica@torontofarmltd.com" },
+  { country: "Angola", office: "Toronto Farm Angola", address: "Kola Rua, Luanda, Angola", phone: "+244713283688", email: "angola@torontofarmltd.com" },
+  { country: "Burkina Faso", office: "Toronto Farm Burkina Faso", address: " Killer Bay Secteur, Ouagadougou, Burkina Faso", phone: "+226720600837", email: "burkinafaso@torontofarmltd.com" }
+];
+
+const listEl = document.getElementById('branchList');
+const detailEl = document.getElementById('branchDetail');
+
+const pinIcon = '<svg viewBox="0 0 24 24"><path d="M12 21s-7-6.2-7-11a7 7 0 0 1 14 0c0 4.8-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg>';
+const phoneIcon = '<svg viewBox="0 0 24 24"><path d="M4 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L14 13l5 2v4a2 2 0 0 1-2 2C9.5 21 3 14.5 3 6a2 2 0 0 1 1-2z"/></svg>';
+const mailIcon = '<svg viewBox="0 0 24 24"><path d="M3 6h18v13H3z"/><path d="M3 6l9 7 9-7"/></svg>';
+
+function renderDetail(i){
+  const b = branches[i];
+  detailEl.innerHTML = `
+    <div class="branch-country-label">${b.country}</div>
+    <div class="branch-office-name">${b.office}</div>
+    <div class="branch-rows">
+      <div class="branch-row">${pinIcon}<span>${b.address}</span></div>
+      <div class="branch-row">${phoneIcon}<a href="tel:${b.phone.replace(/\s/g,'')}">${b.phone}</a></div>
+      <div class="branch-row">${mailIcon}<a href="mailto:${b.email}">${b.email}</a></div>
+    </div>
+  `;
+  [...listEl.children].forEach((el, idx) => el.classList.toggle('active', idx === i));
+}
+
+branches.forEach((b, i) => {
+  const btn = document.createElement('button');
+  btn.className = 'branch-btn' + (i === 0 ? ' active' : '');
+  btn.textContent = b.country;
+  btn.onclick = () => renderDetail(i);
+  listEl.appendChild(btn);
+});
+
+renderDetail(0);
+</script>
+
+
+<h1>Send Us a Message</h1>
+<p>Have questions, ideas, or plans to visit? We’re here to guide you toward a restful, purpose-driven escape immersed in the rhythms of nature. Fill in the contact form and we’ll get back to you in a timely manner.</p><br>
+<form action="">
+    <label for="First Name">First Name</label>
+    <input type="text" id="First Name" name=" First Name">
+    <label for="Second Name">Second Name</label>
+    <input type="text" id="Second Name" name="Second Name"><br><br>
+    <label for="email">Email Address</label>
+    <input type="text" id="email" name="email">
+    <label for="Phone Number">Phone Number</label>
+    <input type="number" id="Phone Number" name="Phone Number"><br><br>
+    <label for="Feedback">Your Message</label><br><br>
+    <textarea name="Feedback" id="Feedback" cols="50" rows="5"></textarea><br><br>
+
+    <div class="d-flex justify-content-center">
+    <div class="btn-group" role="group" aria-label="Basic example">
+    <button type="Submit" class="btn btn-primary">Submit</button>
+    </div>
+    </div>
+    
+    
+
+
+
+
+
+
+
+
+</form>
+
+</body>
+</html>
+    </section>
+</body>
+</html>
